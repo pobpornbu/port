@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "name": "tap",
+    "title": "TAP",
+    "company": "Thai Asia Pacific",
+    "images": [
+    {
+      "src": "images/port/tap/tap-index.jpg",
+      "alt": "TAP Homepage"
+    },{
+      "src": "images/port/tap/tap-welcome.jpg",
+      "alt": "TAP Landing Page"
+    },{
+      "src": "images/port/tap/tap-milestone.jpg",
+      "alt": "TAP Milestone"
+    },{
+      "src": "images/port/tap/tap-brewery.jpg",
+      "alt": "TAP Brewery Process"
+    },{
+      "src": "images/port/tap/tap-sitemap.jpg",
+      "alt": "TAP Sitemap"
+    },{
+      "src": "images/port/tap/tap-content.jpg",
+      "alt": "TAP About"
+    }
+    ],
+    "subheader": "Corporate Website",
+    "intro": "TAP is my lastest project which I am working on responsive template by HTML5&CSS3. How difficult is some point needs to pay attention to the detail.",
+    "content": "TAP is my lastest project which I am working on responsive template by HTML5&CSS3. How difficult is some point needs to pay attention to the detail.",
+    "website": "http://www.crafe.tk/tap/",
+    "stylelink": "right",
+    "tag": [
+      "ion-social-html5", "ion-social-css3"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "nation",
+    "title": "Nation",
+    "company": "Nation Broadcasting Corporation Public Co.,Ltd",
+    "images": [
+    {
+      "src": "images/port/nation/nationtv-home.jpg",
+      "alt": "Nation TV Homepage"
+    },{
+      "src": "images/port/nation/nationradio-home.jpg",
+      "alt": "Nation Radio Homepage"
+    },{
+      "src": "images/port/nation/livestory-home.jpg",
+      "alt": "Livestory Homepage"
+    },{
+      "src": "images/port/nation/thepeople-home.jpg",
+      "alt": "The People Homepage"
+    }
+    ],
+    "subheader": "News Website",
+    "intro": "Nation Broadcasting Corporation is my recent workplace. I worked here as a front-end developer focusing on Nation TV website which just have launched",
+    "content": "Nation TV is a well-known Thai news channel. My works here focus on Nation TV website. We already developed once when I started working here and now once again. Here I can learn how to write semantic and SEO-friendly HTML to help the website rank higher on the top Thailand's news website. Besides, I worked on some other projects using Stylus and Foundation such as Live Story, Nation Radio, and The People.",
+    "website": "http://www.nationtv.tv/main",
+    "stylelink": "left",
+    "tag": [
+      "ion-social-html5", "ion-social-css3", "ion-social-javascript"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "taskworld",
+    "title": "taskworld",
+    "company": "Itorama Consulting (Thailand) Ltd",
+    "images": [
+    {
+      "src": "images/port/tw/tw-static-home-page-1280.jpg",
+      "alt": "Taskworld Homepage webpage"
+    },
+    {
+      "src": "images/port/tw/tw-static-mkt-company.jpg",
+      "alt": "Taskworld Company webpage"
+    },
+    {
+      "src": "images/port/tw/tw-static-mkt-feature.jpg",
+      "alt": "Taskworld feature webpage"
+    },
+    {
+      "src": "images/port/tw/tw-static-mkt-contact.png",
+      "alt": "Taskworld contact webpage"
+    },
+    {
+      "src": "images/port/tw/tw-static-splashpage-2.jpg",
+      "alt": "Taskworld splashpage version 2"
+    },
+    {
+      "src": "images/port/tw/tw-feature-project-inactive-participant.jpg",
+      "alt": "Taskworld webpage"
+    },
+    {
+      "src": "images/port/tw/tw-feature-task-reminder-1.jpg",
+      "alt": "Taskworld feature task reminder"
+    },
+    {
+      "src": "images/port/tw/tw-feature-task-reminder-2.jpg",
+      "alt": "Taskworld feature task reminder"
+    },
+    {
+      "src": "images/port/tw/tw-feature-task-reminder-3.jpg",
+      "alt": "Taskworld feature task reminder"
+    },
+    {
+      "src": "images/port/tw/tw-feature-repeating-task.jpg",
+      "alt": "Taskworld feature repeating task"
+    },
+    {
+      "src": "images/port/tw/tw-feature-duplicate-project.jpg",
+      "alt": "Taskworld feature duplicate project"
+    },
+    {
+      "src": "images/port/tw/tw-feature-task-template.jpg",
+      "alt": "Taskworld feature task template"
+    },
+    {
+      "src": "images/port/tw/tw-ui-kit-v1-8.jpg",
+      "alt": "Taskworld UI Kit V1.8"
+    }
+    ],
+    "subheader": "Static page and web application",
+    "intro": "Taskworld is task and project management application. I took responsibility for creating a prototype with HTML5&CSS3.",
+    "content": "Taskworld is task and project management application. I took responsibility for creating a prototype with HTML5&CSS3. Here encouraged me to learn a new technology such as NodeJs, AngularJs, and Git. Also, experienced in team up with Agile and Lean process. Starting morning with scrum daily 15 minutes meeting",
+    "website": "http://www.taskworld.com",
+    "stylelink": "right",
+    "tag": [
+      "ion-social-html5", "ion-social-css3"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "varisoft",
+    "title": "varisoft",
+    "company": "Varisoft Co.Ltd",
+    "images": [
+      {
+        "src": "images/port/varisoft/varisoft-mockup.jpg",
+        "alt": "Varisoft - creative software house one page website"
+      }
+    ],
+    "subheader": "Corperate Website",
+    "intro": "This onepage website is for Varisoft, web and mobile application development studio. I worked on it all process on my own.",
+    "content": "This onepage website is for Varisoft, web and mobile application development studio. I built it from the ground up. Since thinking the concept, I wrote the content, styled the look and finally made website. I tried to pass through the right message to their customers.",
+    "website": "http://www.varisoft.co",
+    "stylelink": "left",
+    "tag": [
+      "ico-design", "ion-edit", "ion-social-html5", "ion-social-css3", "ion-social-javascript"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "plantmoney",
+    "title": "Plant Money",
+    "company": "Varisoft Co.,Ltd",
+    "images": [
+      {
+        "src": "images/port/plantmoney/plantMoney-web-mockup-wood.jpg",
+        "alt": "Plant money - financial mobile application"
+      },
+      {
+        "src": "images/port/plantmoney/lilyofthevalley-app-character.jpg",
+        "alt": "Plant money - financial mobile application"
+      }
+    ],
+    "subheader": "Landing Page Application Website",
+    "intro": "This landing page introduces Plantmoney which was an awarded financial mobile application in 2014. I worked on both design and code by myself.",
+    "content": "This landing page introduces Plantmoney which was an awarded financial mobile application in 2014. I worked on both design and code by myself. Also, I drawed and animated a cartoon plant in the application using Adobe Illustrator and Flash",
+    "website": "http://www.plantmoneyapp.com",
+    "stylelink": "left",
+    "tag": [
+      "ion-social-html5", "ion-social-css3"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "delivery",
+    "title": "delivery thai",
+    "company": "Delivery Thai Co.,Ltd",
+    "images": [
+    {
+      "src": "images/port/del/0905-mineralfoundation005.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/greenjuice001.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/foundationtousethemineralmaterial001.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/foundationtousethemineralmaterial006.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/housemoving002.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/learningenglish002.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/marriage5.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/sellofmycar002.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/hairremoval002.jpg",
+      "alt": "webpage I worked for delivery thai"
+    },
+    {
+      "src": "images/port/del/interpretationthai004.jpg",
+      "alt": "webpage I worked for delivery thai"
+    }
+    ],
+    "subheader": "Affiliate Website",
+    "intro": "Delivery Thai is a japanese creative agency where I used to work for. I was assigned to create small websites whose purpose for affiliate marketing",
+    "content": "When I worked for Delivery Thai, I was assigned to create small websites whose purpose for marketing the product of company's clients. With one product, I had to design and make more than 20 different websites. Moreover, I designed some mobile version websites.",
+    "website": "#",
+    "stylelink": "right",
+    "tag": [
+      "ico-design", "ion-social-html5", "ion-social-css3"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "recipe",
+    "title": "Recipe",
+    "company": "",
+    "images": [
+    {
+      "src": "images/port/salad/salad-home.png",
+      "alt": "Salad Homepage"
+    },{
+      "src": "images/port/salad/salad-list.png",
+      "alt": "Salad Category Page"
+    },{
+      "src": "images/port/salad/salad-content.png",
+      "alt": "Salad Post Page"
+    }
+    ],
+    "subheader": "My workshop",
+    "intro": "A salad is a Wordpress blog consisting of variety of healthy lifestyle content",
+    "content": "A salad is a blog consisting of variety of healthy lifestyle including healthy dish recipe, organic food shop, exercise activity, knowledge for health. Building a website from Sage, wordpress starter theme with Gulp, Sass, Bootstrap.",
+    "website": "http://www.crafe.tk/salad/",
+    "stylelink": "left",
+    "tag": [
+      "ico-design", "ion-social-wordpress", "ion-social-html5", "ion-social-css3"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "cuddle",
+    "title": "Cuddle",
+    "company": "",
+    "images": [
+    {
+      "src": "images/port/cuddle/cuddle-home.png",
+      "alt": "Cuddle Homepage"
+    },{
+      "src": "images/port/cuddle/cuddle-detail.png",
+      "alt": "Cuddle product detail"
+    }
+    ],
+    "subheader": "My workshop",
+    "intro": "A premium homewares factory which specialise in seat pads, chair pads, and cushions, under the brand name Cuddle",
+    "content": "A premium homewares factory which specialise in seat pads, chair pads, and cushions, under the brand name Cuddle. I developed this site with AngularJs and Sass.",
+    "website": "http://www.crafe.tk/cuddle/index.html",
+    "stylelink": "left",
+    "tag": [
+      "ico-design", "ion-social-angular", "ion-social-html5", "ion-social-css3"
+    ]
+  }
+]

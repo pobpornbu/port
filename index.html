@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html ng-app="portfolioApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="Pobporn's Online Portfolio - CSS Developer">
+  <meta name="author" content="Pobporn Burintarathikul">
+  <meta name="p:domain_verify" content="60d4b937943eb646420ea68921a10662"/>
+  <!-- Always force latest IE rendering engine (even in intranet) this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pobporn's Online Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow|Playfair+Display|Roboto:100,300,900|Ropa+Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/animation.css" />
+<!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="js/respond.src.js"></script>
+    <script src="html5shim.googlecode.com/svn/trunk/html5.js">
+<![endif]-->
+</head>
+
+<body><!--  ng-controller="PortfolioController" -->
+  <div id="loading">
+    <svg version="1.1" id="logo-loading" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px"
+       viewBox="0 0 191.5 193.2" enable-background="new 0 0 191.5 193.2" xml:space="preserve">
+    <path fill="none" stroke="#000000" stroke-width="15" stroke-miterlimit="10" d="M65.3,171.3V65.4h51c0,0,28.2,4.6,28.2,37.3
+      s-28.2,38.9-28.2,38.9H92.7V15.8c44.6,0,83,29.3,83,85.3c-0.4,45.7-41.3,76.6-83.8,76.2c-33.5-0.4-75.9-28.5-76.2-76.2
+      c-0.4-61,46.1-85.3,75.4-85.3"/>
+    </svg>
+    <div class="loading-gap-top"></div>
+    <div class="loading-gap-bottom"></div>
+  </div>
+  <section id="home" class="section home" data-0="transform:translate(0,0%);" data-100p="transform:translate(0,-200%);">
+    <div class="container--frame bg--home">
+      <div class="dec__line"></div>
+      <div class="triangle-up-right"></div>
+      <header class="rel container--frame header__container">
+        <hgroup class="header__group">
+          <img src="images/pb_logo.png" alt="my logo" class="logo__img--main">
+          <h1 class="header__text--name">Pobporn</h1>
+          <h2 class="header__text--strong">CSS developer</h2>
+        </hgroup>
+        <i class="ion icon-arrow-down ion-ios-arrow-down"></i>
+      </header>
+    </div>
+  </section>
+
+  <article id="aboutme" class="section aboutme" data-0="transform:translate(0,100%);" data-100p="transform:translate(0,-100%);">
+    <div class="aboutme__overlay"></div>
+    <div class="aboutme__image" data-25p="background-position: -200px 0;" data-_aboutme-100p="background-position: -400px 0;"></div>
+    <div class="aboutme__main text__group--middle">
+      <div class="text__wrap--middle">
+        <div class="head__wrap--aboutme" data-25p="opacity:0; margin-left: -50px;" data-_aboutme-30p="opacity:1; margin-left: 0;">
+          <h2 class="head head--aboutme">About me</h2>
+          <div class="social__wrap">
+            <a class="social__icon icon__wrap--email" title="pobpornbu@gmail.com" href="mailto:pobpornbu@gmail.com">
+              <i class="icon--font icon--email ion-email"></i>
+            </a>
+            <a class="social__icon" title="pinterest" href="https://www.pinterest.com/webcrafe/interactive-web-design/" target="_blank">
+              <i class="icon--font ion-social-pinterest"></i>
+            </a>
+            <a class="social__icon" title="github" href="https://github.com/pobpornbu" target="_blank">
+              <i class="icon--font ion-social-github"></i>
+            </a>
+          </div>
+        </div>
+        <div data-25p="opacity:0;" data-_aboutme-50p="opacity:1;">
+        <p class="text--lead">Set my heart on interactive websites</p>
+        <p class="aboutme__text text--content">My name is Pobporn Burintarathikul. A passion for digital interactive has driven me to IT career path. My speciality lay on HTML/CSS with an ability of web design. My skills are best suit for static interactive websites. I always fall in love with clean and flat design.</p>
+        <p class="aboutme__text text--content">I always feel the taste of challenges to create a fun and interactive website with the best practice of coding. I am never afraid to venture into the unknown technique in order to find the right solution for the job.</p>
+        </p></div>
+      </div>
+    </div>
+    <svg>
+      <defs>
+        <clipPath id="clipping" clipPathUnits="objectBoundingBox">
+          <polygon points="969.4,768 573.3,1 0,1 0,768 "/>
+        </clipPath>
+      </defs>
+    </svg>
+  </article>
+
+  <section id="skill" class="section skill" data-0="transform:translate(0,200%);" data-100p="transform:translate(0,0%)" data-_box-100p="" data-_box-200p="transform:translate(0,-100%)">
+    <div class="box black" data-100p="width:65%;" data-_box-100p="width:55%">
+      <!-- <<<<<< Main Logo >>>>>>> -->
+      <div class="sign__wrap sign__wrap--main" data-100p="opacity:1;" data-_box-50p="opacity:0;">
+        <img class="sign__img logo lazy" data-src="images/pobporn-web-front-end-logo-dark-gold.svg" alt="pobporn's logo for her skill">
+        <h3 class="head head--skill">Skill</h3>
+      </div>
+
+      <div id="code-chart" class="chart js-skill-genre">
+
+        <!-- Code Logo -->
+        <div class="sign__wrap code-sign jsshowchart" data-100p="opacity:0;left:80%;" data-_box-50p="opacity:1;left:50%;">
+          <img class="sign__img" src="images/code-sign.png" alt="pobporn's logo for her code skills"><!-- &lt;/&gt -->
+          <h3 class="subhead--skill">Code</h3>
+        </div>
+
+        <!-- Code Chart -->
+
+        <canvas id="html" class="circle-outer" width="300" height="300" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;"></canvas>
+        <canvas id="php" class="circle-middle" width="300" height="260" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;"></canvas>
+        <canvas id="js" class="circle-inner" width="300" height="190" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;"></canvas>
+
+
+        <!-- Code Header -->
+        <p id="code-skill-name" class="skill__header" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;">
+          <span class="min skill__item">
+            <span id="btn-php" class="silver skill__link js-skill-link js-code-link" role="button" data-title="php" data-genre="code">PHP&amp;MySql</span>
+          </span>
+          <span class="mid skill__item">
+            <span id="btn-js" class="grey skill__link js-skill-link js-code-link" role="button" data-title="js" data-genre="code">Javascript</span>
+          </span>
+          <span class="max skill__item">
+            <span id="btn-html" class="gold skill__link js-skill-link js-code-link active" role="button" data-title="html" data-genre="code">HTML5&amp;CSS3</span>
+          </span>
+        </p>
+
+      </div>
+
+      <!-- Code Detail -->
+      <div class="skill__detail hide-xs" data-_sign-0="opacity:0;" data-_sign-100p="opacity:1;">
+        <h4 id="code-skill-header" class="skill-header skill-detail__header">HTML5&amp;CSS3</h4>
+        <div id="code-skill-detail" class="skill-detail skill__content text--content"></div>
+      </div>
+
+    </div>
+    <div class="box white" data-100p="width:35%;" data-_box-100p="width:45%">
+
+      <div id="design-chart" class="chart js-skill-genre">
+        <div class="sign__wrap design-sign jsshowchart" data-100p="opacity:0;left:-30%;" data-_box-90p="opacity:1;left:50%;">
+          <img class="sign__img" src="images/design-sign.png" alt="pobporn's logo for her design skills">
+          <h3 class="subhead--skill">Design</h3>
+        </div>
+
+        <canvas id="ps" class="circle-outer" width="300" height="300" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;"></canvas>
+        <canvas id="ai" class="circle-middle" width="300" height="260" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;"></canvas>
+        <canvas id="an" class="circle-inner" width="300" height="190" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;"></canvas>
+
+        <p id="design-skill-name" class="skill__header" data-_sign-50p="opacity:0;" data-_sign-90p="opacity:1;">
+          <span class="min skill__item">
+            <span id="btn-an" class="silver skill__link js-skill-link js-design-link" role="button" data-title="an" data-genre="design">Animate</span>
+          </span>
+          <span class="mid skill__item">
+            <span id="btn-ai" class="grey skill__link js-skill-link js-design-link" role="button" data-title="ai" data-genre="design">Illustrator</span>
+          </span>
+          <span class="max skill__item">
+            <span id="btn-ps" class="gold skill__link js-skill-link js-design-link active" role="button" data-title="ps" data-genre="design">Photoshop</span>
+          </span>
+        </p>
+      </div>
+      <div class="skill__detail --design hide-xs" data-_sign-0="opacity:0;" data-_sign-90p="opacity:1;">
+        <h4 id="design-skill-header" class="skill-header skill-detail__header">Photoshop</h4>
+        <div id="design-skill-detail" class="skill-detail skill__content text--content"></div>
+      </div>
+    </div>
+  </section>
+<!--Handlebar templates start-->
+  <section id="work" class="section work" data-_box-100p="transform:translate(0,100%);" data-_box-200p="transform:translate(0,0%);">
+    <div class="work__group" data-_wrap-0="transform:translate(0%,0);" data-_wrap-100p="transform:translate(-50%,0);">
+      <div class="head__wrap">
+        <h2 class="head head--work">Work</h2>
+        <p class="text--detail text--work">Last updated on: <br>October 12th, 2015</p>
+      </div>
+      <div id="work-container" class="work__wrap">
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="copyright">&copy; Copyright 2015 crafe.tk. All Rights Reserved.</span>
+    </footer>
+  </section>
+  <script id="work-template" type="text/x-handlebars-template">
+    {{#each this}}
+      <div class="work-project work-{{this.name}}">
+        <figure class="image__group--work">
+          <div class="image--work js-trigger-img" data-toggle="modal" data-target="#{{this.name}}Modal">
+            {{#with images.[0]}}
+              <img class="img ajax-lazy" data-src="{{this.src}}" alt="{{this.alt}}">
+            {{/with}}
+          </div>
+          <figcaption class="caption caption--{{this.stylelink}}">
+            <h4 class="caption__header js-trigger-img" data-toggle="modal" data-target="#{{this.name}}Modal">{{this.title}}</h4>
+            <p class="caption__text text--content">{{this.intro}}</p>
+            <a class="link--line link--line--{{this.stylelink}} js-trigger-img" href="#" data-toggle="modal" data-target="#{{this.name}}Modal">read more</a>
+          </figcaption>
+        </figure>
+      </div>
+    {{/each}}
+  </script>
+<!--Handlebar templates end-->
+  <div class="js-overlay"></div>
+
+  <div class="navbar__wrap--font" data-smooth-scrolling="off">
+    <a href="#" class="js-navbar-button nav">
+      <span class="navbar__btn--font ion ion-navicon" data-anchor-target="#skill" data--100="color:!#ffffff"data-bottom-top="color:!#000000" data-top-bottom="color:!#000000"></span>
+    </a>
+  </div>
+  <nav class="js-navbar-collapse collapse navbar-collapse navbar-responsive-collapse visible-xs-block">
+      <button type="button" class="close navbar__btn--close js-navbar-close" aria-label="Close"><span aria-hidden="true" class="ion ion-android-close"></span></button>
+      <ul class="navbar__wrap navbar-nav pull-right">
+          <li class="navbar__item">
+              <a class="js-navbar-link navbar__link" href="#home" data-menu-top="0">Home</a>
+          </li>
+          <li class="navbar__item">
+              <a class="js-navbar-link navbar__link" href="#aboutme" data-menu-top="50p">About Me</a>
+          </li>
+          <li class="navbar__item">
+              <a class="js-navbar-link navbar__link" href="#skill" data-menu-top="100p">Skill</a>
+          </li>
+          <li class="navbar__item">
+              <a class="js-navbar-link navbar__link" href="#work" data-menu-top="350p">Work</a>
+          </li>
+      </ul>
+  </nav>
+  <section id="workdetail-container"></section>
+<script id="workdetail-template" type="text/x-handlebars-template">
+  {{#each this}}
+  <div class="modal modal-fullpage fade" id="{{this.name}}Modal" tabindex="-1" role="dialog" aria-labelledby="{{this.name}}Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="row modal__row">
+          <div class="modal__close" data-dismiss="modal">
+            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+          </div>
+          <figure class=" [ col-xs-12 col-sm-4 col-sm-offset-1 ] modal--left">
+            <div id="work-images-{{this.name}}" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                {{#each images}}
+                  {{#if @first}}
+                    <div class="item active">
+                      <img class="modal-lazy" data-src="{{this.src}}" alt="{{this.alt}}">
+                    </div>
+                  {{else}}
+                    <div class="item">
+                      <img class="modal-lazy" data-src="{{this.src}}" alt="{{this.alt}}">
+                    </div>
+                  {{/if}}
+                {{/each}}
+              </div>
+              {{#compare images.length ">" 1}}
+              <div class="container--frame">
+                <div class="carousel-control-group">
+                  <a class="left carousel-control" href="#work-images-{{this.name}}" role="button" data-slide="prev">
+                    <span class="icon-imggal-prev ion-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#work-images-{{this.name}}" role="button" data-slide="next">
+                    <span class="icon-imggal-next ion-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              {{/compare}}
+            </div>
+          </figure>
+          <div class=" [ col-xs-12 col-sm-7 ] modal--right">
+            <div class="text__group--middle">
+              <div class="modal__wrap text__wrap--middle">
+                <div class="modal__header clearfix">
+                  <h4 class="work-caption-header caption__header pull-left" id="{{this.name}}Label">{{this.title}}</h4>
+                </div>
+                <p class="modal__icon">
+                {{#each tag}}
+                  <i class="ion {{this}}"></i>
+                {{/each}}
+                </p>
+                <h5 class="work-caption-subheader">{{this.subheader}}</h5>
+                <div class="modal__body">
+                  <p class="modal__descr text--content">{{this.content}}</p>
+                </div>
+                <a href="{{this.website}}" target="_blank" class="link" rel="nofollow">Visit This Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/handlebars/handlebars.min.js"></script>
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="bower_components/detectizr/dist/detectizr.min.js"></script>
+
+  <script src="bower_components/bootstrap/js/modal.js"></script>
+  <script src="bower_components/bootstrap/js/carousel.js"></script>
+  <script src="bower_components/jquery-unveil/jquery.unveil.min.js"></script>
+  <!-- Loading -->
+  <script src="js/classie.js"></script>
+  <script src="js/svganimations2.js"></script>
+  <!-- Parallax -->
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/skrollr.menu.min.js"></script>
+  <!-- Chart -->
+  <script src="js/Chart.min.js"></script>
+  <script src="js/skillChart.js"></script>
+  <!-- Change Content  -->
+  <script src="js/viewportSize-min.js"></script>
+  <script src="js/changeContent.js"></script>
+  <!-- Navigation -->
+  <script src="js/navbar-hamburger.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
